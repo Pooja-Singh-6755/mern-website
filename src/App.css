@@ -1,0 +1,73 @@
+.container-login {
+    height: 100%;
+    width: 100%;
+}
+
+.main-part {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.item-1 {
+    width: 70%;
+    background-color: grey;
+    height: 89vh;
+    margin-left: 42px;
+}
+
+.login-form {
+    margin-top: 100px;
+}
+
+
+/* sign up page*/
+
+.signup {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Home page*/
+
+.main-container {
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+
+/*contact page design */
+
+.grid-container {
+    background-color: #2196F3;
+    padding: 8px;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 'nav nav nav' 'slide slide slide slide  ' 'footer ';
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1>div {
+    margin-left: 251px;
+}
